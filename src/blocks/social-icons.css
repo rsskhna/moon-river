@@ -1,0 +1,38 @@
+.social-icons {
+    width: 100%;
+    max-width: 90px;
+
+    display: flex;
+    justify-content: space-between;
+
+    list-style-type: none;
+}
+
+.social-icons__item {
+    display: flex;
+    align-items: center;
+}
+
+.social-icons__link {
+    display: inline-block;
+}
+
+.social-icons__link_facebook {
+    width: 35px;
+    height: 35px;
+
+    background-image: url("../images/Facebook.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.social-icons__link_instagram {
+    width: 35px;
+    height: 35px;
+
+    background-image: url("../images/Instagram.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}

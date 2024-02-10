@@ -1,0 +1,54 @@
+.form {
+    position: relative;
+}
+
+.form__input {
+    width: 100%;
+    min-height: 34px;
+
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #FFF;
+
+    padding: 0;
+}
+
+.form__input_dark {
+    border-bottom: 1px solid #272727;
+}
+
+.form__input::placeholder {
+    font-family: "FuturaPT-light", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.40);
+}
+
+.form__input_dark::placeholder {
+    font-family: "FuturaPT-light", Arial, sans-serif;
+    font-size: 22px;
+    color: #959595;
+}
+
+.form__button {
+    width: 100%;
+    max-width: 28px;
+    min-height: 15px;
+
+    position: absolute;
+    bottom: 14px;
+    right: 0;
+
+    background-image: url("../images/arrow-white_right.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+
+    border: none;
+    padding: 0;
+}
+
+.form__button_dark {
+    background-image: url("../images/arrow-black.svg");
+}

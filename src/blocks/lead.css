@@ -1,0 +1,120 @@
+.lead {
+    width: 100%;
+    min-height: 1024px;
+
+    background-image: url("../images/lead-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    padding-top: 427px;
+    padding-left: 162px;
+}
+
+.lead__title-img-area {
+    width: 100%;
+    max-width: 891px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.lead__title-subtitle-area {
+    width: 100%;
+    max-width: 475px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.lead__title {
+    width: 100%;
+    max-width: 433px;
+
+    font-family: Forum, "Times New Roman", serif;
+    font-size: 64px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #272727;
+    letter-spacing: 1.92px;
+}
+
+.lead__subtitle {
+    width: 100%;
+    max-width: 346px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-left: 129px;
+    margin-top: 50px;
+}
+
+.lead__line {
+    margin-top: 7px;
+
+    background-color: #272727;
+}
+
+.lead__link {
+    width: 100%;
+    max-width: 178px;
+
+    font-family: "SegoeUI-light-italic", Arial, sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 300;
+    color: #272727;
+    text-decoration: none;
+}
+
+.lead__ring-img {
+    width: 100%;
+    max-width: 322px;
+}
+
+.lead__language-caption-area {
+    width: 100%;
+    max-width: 1116px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+
+    margin-top: 281px;
+}
+
+.lead__language {
+    width: 100%;
+    max-width: 51px;
+
+    display: flex;
+    justify-content: space-between;
+
+    list-style-type: none;
+}
+
+.lead__language-item {
+    width: 100%;
+    max-width: 20px;
+}
+
+.lead__language-link {
+    font-family: "FuturaPT-book", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    color: #272727;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.lead__language-link_inactive {
+    color: #C4C4C4;
+}
+
+.lead__caption {
+    text-align: right;
+}
+

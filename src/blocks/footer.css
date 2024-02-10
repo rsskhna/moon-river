@@ -1,0 +1,105 @@
+.footer {
+    width: 100%;
+    min-height: 390px;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: #272727;
+}
+
+.footer__navigation {
+    width: 100%;
+    max-width: 1116px;
+
+    margin: 80px auto 90px;
+}
+
+.footer__links {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+
+    list-style-type: none;
+}
+
+.footer__link-item {
+    width: 100%;
+    max-width: max-content;
+}
+
+.footer__link {
+    font-family: "FuturaPT-medium", Arial, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.84px;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+.footer__info {
+    width: 100%;
+    max-width: 1116px;
+
+    display: flex;
+    align-items: center;
+
+    margin: 0 auto;
+}
+
+.footer__logo {
+    width: 100%;
+    max-width: 258px;
+
+    margin-right: 314px;
+}
+
+.footer__contacts {
+    width: 100%;
+    max-width: 185px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    align-self: start;
+    margin-right: 80px;
+}
+
+.footer__section-title {
+    width: 100%;
+    max-width: max-content;
+
+    font-family: "FuturaPT-book", Arial, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+.footer__phone-number {
+    width: 100%;
+    max-width: max-content;
+
+    font-family: "FuturaPT-light", Arial, sans-serif;
+    font-size: 18px;
+    color: #C2C2C2;
+    text-decoration: none;
+}
+
+.footer__news {
+    width: 100%;
+    max-width: 280px;
+
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+
+    align-self: start;
+}
+
+.footer__form {
+    width: 100%;
+    max-width: 280px;
+}
+

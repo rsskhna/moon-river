@@ -1,0 +1,59 @@
+.location {
+    width: 100%;
+
+    display: flex;
+
+    background-color: #272727;
+
+    margin-top: 20px;
+}
+
+.location__description {
+    width: 100%;
+    max-width: 710px;
+    min-height: 604px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.location__title {
+    width: 100%;
+    max-width: 386px;
+
+    font-family: Forum, "Times New Roman", serif;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 1.44px;
+    color: #FFF;
+
+    margin-bottom: 16px;
+}
+
+.location__subtitle {
+    width: 100%;
+    max-width: 386px;
+
+    font-family: "FuturaPT-light", Arial, sans-serif;
+    font-size: 18px;
+    color: #FFF;
+
+    margin-bottom: 64px;
+}
+
+.location__form {
+    width: 100%;
+    max-width: 386px;
+}
+
+.location__map {
+    width: 100%;
+    max-width: 730px;
+
+    background-image: url("../images/map.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}

@@ -1,0 +1,79 @@
+.products {
+    width: 100%;
+    height: 820px;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 20px;
+}
+
+.products__section {
+    width: 100%;
+}
+
+.products__section_extreme {
+    max-width: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.products__section_middle {
+    max-width: 600px;
+
+    position: relative;
+}
+
+.products__square-section {
+    width: 100%;
+    max-width: 400px;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    background-color: #EDEDED;
+}
+
+.products__product {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.products__product_ring {
+    max-width: 260px;
+    margin-top: 50px;
+}
+
+.products__product_earring {
+    max-width: 300px;
+    margin-top: -15px;
+}
+
+.products__product_necklace {
+    object-position: top;
+    object-fit: contain;
+}
+
+
+.products__caption {
+    position: absolute;
+    left: 30px;
+    bottom: 20px;
+}
+
+.products__product-name {
+    color: #272727;
+}
+
+.products__product-description {
+    color: #757575;
+}
+
+.products__product-price {
+    color: #E2B67A;
+}

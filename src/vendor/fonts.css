@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Forum';
+    font-style:  normal;
+    src: url("fonts/Forum-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'FuturaPT-book';
+    font-style:  normal;
+    src: url("fonts/FuturaPTBook.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'FuturaPT-demi';
+    font-style:  normal;
+    src: url("fonts/FuturaPTDemi.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'FuturaPT-light';
+    font-style:  normal;
+    src: url("fonts/FuturaPTLight.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'FuturaPT-medium';
+    font-style:  normal;
+    src: url("fonts/FuturaPTMedium.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'SegoeUI-light-italic';
+    font-style:  normal;
+    src: url("fonts/Segoe UI light-italic.woff2") format("woff2");
+}

@@ -1,0 +1,40 @@
+.mobile-apps {
+    width: 100%;
+    max-width: 200px;
+
+    display: flex;
+    justify-content: space-between;
+
+    list-style-type: none;
+}
+
+.mobile-apps__item {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+}
+
+.mobile-apps__link {
+    display: inline-block;
+}
+
+.mobile-apps__link_AppStore {
+    width: 90px;
+    height: 28px;
+
+    background-image: url("../images/apple-store.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mobile-apps__link_GooglePlay {
+    width: 103px;
+    height: 35px;
+
+    background-image: url("../images/google-play.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}

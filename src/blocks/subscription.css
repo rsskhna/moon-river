@@ -1,0 +1,59 @@
+.subscription {
+    width: 100%;
+    min-height: 640px;
+
+    display: flex;
+}
+
+.subscription__image {
+    width: 100%;
+    max-width: 710px;
+
+    background-image: url("../images/news-img.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.subscription__description {
+    width: 100%;
+    max-width: 340px;
+    min-height: 280px;
+
+    display: flex;
+    flex-direction: column;
+
+    margin: 180px auto 0;
+}
+
+.subscription__subtitle {
+    width: 100%;
+    max-width: max-content;
+
+    font-family: "FuturaPT-book", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    color: #272727;
+
+    margin-bottom: 30px;
+}
+
+.subscription__phone-number {
+    width: 100%;
+    max-width: 160px;
+
+    font-family: "FuturaPT-light", Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    color: #959595;
+    text-decoration: none;
+
+    margin-bottom: 110px;
+}
+
+.subscription__form {
+    width: 100%;
+    max-width: 280px;
+}
