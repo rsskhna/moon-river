@@ -1,5 +1,5 @@
-import footerLogo from '../images/logo-footer.svg'
-import {footerLinks} from "../data.js";
+import footerLogo from '../../images/logo-footer.svg'
+import {footerLinks} from "../../utils/data.js";
 
 const linkItem = footerLinks.map(
     link =>
@@ -18,7 +18,9 @@ export default function Footer() {
             </nav>
 
             <div className="footer__info">
-                <img className="footer__logo" src={footerLogo} alt="Moon River"/>
+                <a href={'#'}>
+                    <img className="footer__logo" src={footerLogo} alt="Moon River"/>
+                </a>
 
                 <div className="footer__contacts">
                     <p className="footer__section-title">телефон горячей линии</p>

@@ -1,6 +1,6 @@
 export default function Subscription() {
     return (
-        <section className="subscription">
+        <section className="subscription" id={'subscription'}>
             <div className="subscription__image"></div>
 
             <div className="subscription__description">

@@ -4,8 +4,6 @@
     display: flex;
 
     background-color: #272727;
-
-    margin-top: 20px;
 }
 
 .location__description {
@@ -52,7 +50,7 @@
     width: 100%;
     max-width: 730px;
 
-    background-image: url("../images/map.jpg");
+    background-image: url("../../images/map.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;

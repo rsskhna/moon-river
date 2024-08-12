@@ -9,7 +9,7 @@
 
 .catalog__section {
     width: 100%;
-    max-width: 710px;
+    max-width: calc((100% - 20px) / 2);
     min-height: 587px;
 
     display: flex;
@@ -19,6 +19,10 @@
 
     opacity: 1;
     transition: opacity 0.3s ease-in-out;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .catalog__section:hover {
@@ -27,17 +31,11 @@
 }
 
 .catalog__section_type_for-man {
-    background-image: url("../images/man.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+    background-image: url("../../images/man.jpg");
 }
 
 .catalog__section_type_for-woman {
-    background-image: url("../images/woman.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url("../../images/woman.jpg");
 }
 
 .catalog__subtitle {

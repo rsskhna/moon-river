@@ -3,7 +3,8 @@
     height: 820px;
 
     display: flex;
-    justify-content: space-between;
+    gap: 20px;
+    justify-content: center;
 
     margin-top: 20px;
 }
@@ -64,6 +65,14 @@
     position: absolute;
     left: 30px;
     bottom: 20px;
+}
+
+.products__middle-section_description {
+    color: #fff;
+}
+
+.products__middle-section_price {
+    color: #EFC58B;
 }
 
 .products__product-name {

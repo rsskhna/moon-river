@@ -2,19 +2,20 @@
 @import url("vendor/fonts.css");
 
 @import url("blocks/line-element.css");
-@import url("blocks/page.css");
-@import url("blocks/header.css");
-@import url("blocks/lead.css");
 @import url("blocks/caption.css");
-@import url("blocks/catalog.css");
-@import url("blocks/location.css");
 @import url("blocks/form.css");
-@import url("blocks/products.css");
-@import url("blocks/social.css");
 @import url("blocks/social-icons.css");
-@import url("blocks/subscription.css");
-@import url("blocks/footer.css");
 @import url("blocks/mobile-apps.css");
+
+@import url("components/app/app.css");
+@import url("components/header/header.css");
+@import url("components/lead/lead.css");
+@import url("components/catalog/catalog.css");
+@import url("components/location/location.css");
+@import url("components/products/products.css");
+@import url("components/social/social.css");
+@import url("components/subscription/subscription.css");
+@import url("components/footer/footer.css");
 
 
 

@@ -1,4 +1,4 @@
-import {catalogSectionInfo} from "../data.js";
+import {catalogSectionInfo} from "../../utils/data.js";
 
 const catalogSection = catalogSectionInfo.map(
     section =>
@@ -13,7 +13,7 @@ const catalogSection = catalogSectionInfo.map(
 
 export default function Catalog() {
     return (
-        <section className="catalog">
+        <section className="catalog" id={"catalog"}>
             {catalogSection}
         </section>
     )

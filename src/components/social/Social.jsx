@@ -1,4 +1,4 @@
-import {socialImages} from "../data.js";
+import {socialImages} from "../../utils/data.js";
 
 const socialImagesItem = socialImages.map(
     image =>
@@ -26,21 +26,6 @@ export default function Social() {
                         <a className="social-icons__link social-icons__link_instagram"></a>
                     </li>
                 </ul>
-
-                <div className="social__remote-panel">
-                    <button className="social__arrow social__arrow_left" type="button"></button>
-
-                    <ul className="social__dots">
-                        <li className="social__dot"></li>
-                        <li className="social__dot"></li>
-                        <li className="social__dot social__dot_active"></li>
-                        <li className="social__dot"></li>
-                        <li className="social__dot"></li>
-                        <li className="social__dot"></li>
-                    </ul>
-
-                    <button className="social__arrow social__arrow_right" type="button"></button>
-                </div>
             </div>
         </section>
     )

@@ -1,4 +1,4 @@
-import {productsSectionInfo} from "../data.js";
+import {productsSectionInfo} from "../../utils/data.js";
 
 function product(prop) {
     return (
@@ -6,11 +6,11 @@ function product(prop) {
             <img className={prop.imgClassName} src={prop.img} alt={prop.alt}/>
 
             <div className="products__caption caption">
-                <p className="caption__product-name products__product-name">{prop.productName}</p>
+                <p className={prop.productNameClassName}>{prop.productName}</p>
 
-                <p className="caption__product-description products__product-description">{prop.productDescription}</p>
+                <p className={prop.productDescriptionClassName}>{prop.productDescription}</p>
 
-                <p className="caption__product-price products__product-price">{prop.productPrice}</p>
+                <p className={prop.productPriceClassName}>{prop.productPrice}</p>
             </div>
         </div>
     )
@@ -18,7 +18,7 @@ function product(prop) {
 
 export default function Products() {
     return (
-        <section className="products">
+        <section className="products" id={'products'}>
             <div className="products__section products__section_extreme">
                 {product(productsSectionInfo[0])}
                 {product(productsSectionInfo[1])}

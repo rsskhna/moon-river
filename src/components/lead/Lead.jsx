@@ -1,5 +1,5 @@
-import ringImage from '../images/ring.svg';
-import {languageList} from "../data.js";
+import ringImage from '../../images/ring.svg';
+import {languageList} from "../../utils/data.js";
 
 const listOfLanguages = languageList.map(
     language =>
@@ -18,7 +18,7 @@ export default function Lead() {
                     <div className="lead__subtitle">
                         <div className="lead__line line-element"></div>
 
-                        <a className="lead__link" href="#">Смотреть коллекцию</a>
+                        <a className="lead__link" href="#products">Смотреть коллекцию</a>
                     </div>
                 </div>
 
