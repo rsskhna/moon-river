@@ -1,21 +1,13 @@
 import {useState} from "react";
-import {useNavigate} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 export default function Location() {
     //TODO замена на Link ссылки
 
     const [addressValue, setAddressValue] = useState(null);
-    const navigate = useNavigate();
 
     const handleChange = (event) => {
         setAddressValue(event.target.value)
-    }
-
-    const handleSubmit = () => {
-        if (!addressValue) {
-            navigate(`https://yandex.ru/maps`);
-        }
-        navigate(`https://yandex.ru/maps/213/moscow/search/${addressValue}`);
     }
 
     return (
@@ -26,11 +18,11 @@ export default function Location() {
                     Введите свой адрес и узнайте о самых ближайших бутиках к вам
                 </p>
 
-                <form className="location__form form" onSubmit={handleSubmit}>
+                <form className="location__form form">
                     <input type="text" name="location"
                            className="form__input" placeholder="Введите адрес" onChange={handleChange}/>
 
-                    <button className="form__button" type='submit'></button>
+                    <Link className="form__button" to={`https://yandex.ru/maps/213/moscow/search/${addressValue}`} target="_blank" rel="noopener noreferrer" />
                 </form>
             </div>
 

@@ -1,4 +1,4 @@
-import ringImage from '../../images/ring.svg';
+import ringImage from '../../images/lead/ring.svg';
 import {languageList} from "../../utils/data.js";
 
 const listOfLanguages = languageList.map(

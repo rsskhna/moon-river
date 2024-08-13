@@ -1,4 +1,4 @@
-import footerLogo from '../../images/logo-footer.svg'
+import footerLogo from '../../images/logo/logo-footer.svg'
 import {footerLinks} from "../../utils/data.js";
 
 const linkItem = footerLinks.map(

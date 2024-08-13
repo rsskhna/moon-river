@@ -1,17 +1,17 @@
-import ringOne from '../images/ring2.svg';
-import ringTwo from '../images/ring3.svg';
-import necklace from '../images/necklace.jpg';
-import earringsOne from '../images/earrings1.svg';
-import earringsTwo from '../images/earrings2.svg';
+import ringOne from '../images/products/ring2.svg';
+import ringTwo from '../images/products/ring3.svg';
+import necklace from '../images/products/necklace.jpg';
+import earringsOne from '../images/products/earrings1.svg';
+import earringsTwo from '../images/products/earrings2.svg';
 
-import socialImage1 from '../images/social-networks1.jpg';
-import socialImage2 from '../images/social-networks2.jpg';
-import socialImage3 from '../images/social-networks3.jpg';
-import socialImage4 from '../images/social-networks4.jpg';
-import socialImage5 from '../images/social-networks5.jpg';
-import socialImage6 from '../images/social-networks6.jpg';
-import socialImage7 from '../images/social-networks7.jpg';
-import socialImage8 from '../images/social-networks8.jpg';
+import socialImage1 from '../images/social/social-networks1.jpg';
+import socialImage2 from '../images/social/social-networks2.jpg';
+import socialImage3 from '../images/social/social-networks3.jpg';
+import socialImage4 from '../images/social/social-networks4.jpg';
+import socialImage5 from '../images/social/social-networks5.jpg';
+import socialImage6 from '../images/social/social-networks6.jpg';
+import socialImage7 from '../images/social/social-networks7.jpg';
+import socialImage8 from '../images/social/social-networks8.jpg';
 
 export const languageList = [
   {
@@ -144,35 +144,35 @@ export const socialImages = [
   },
   {
     img:socialImage1,
-    id:1
+    id:10
   },
   {
     img:socialImage2,
-    id:2
+    id:20
   },
   {
     img:socialImage3,
-    id:3
+    id:30
   },
   {
     img:socialImage4,
-    id:4
+    id:40
   },
   {
     img:socialImage5,
-    id:5
+    id:50
   },
   {
     img:socialImage6,
-    id:6
+    id:60
   },
   {
     img:socialImage7,
-    id:7
+    id:70
   },
   {
     img:socialImage8,
-    id:8
+    id:80
   },
 ]
 

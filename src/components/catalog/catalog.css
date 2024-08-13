@@ -31,11 +31,11 @@
 }
 
 .catalog__section_type_for-man {
-    background-image: url("../../images/man.jpg");
+    background-image: url("../../images/catalog/man.jpg");
 }
 
 .catalog__section_type_for-woman {
-    background-image: url("../../images/woman.jpg");
+    background-image: url("../../images/catalog/woman.jpg");
 }
 
 .catalog__subtitle {

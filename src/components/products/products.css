@@ -41,8 +41,7 @@
 
 .products__product {
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 .products__product_ring {
@@ -56,10 +55,11 @@
 }
 
 .products__product_necklace {
-    object-position: top;
-    object-fit: contain;
+    max-width: 600px;
+    min-height: 820px;
+    object-position: bottom center;
+    object-fit: cover;
 }
-
 
 .products__caption {
     position: absolute;

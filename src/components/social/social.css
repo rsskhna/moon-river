@@ -32,7 +32,7 @@
     display: flex;
     list-style-type: none;
 
-    animation: image-carousel 25s linear infinite;
+    animation: image-carousel 30s linear infinite;
 }
 
 .social__image {
