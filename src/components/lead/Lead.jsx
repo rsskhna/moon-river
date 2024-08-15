@@ -12,7 +12,7 @@ export default function Lead() {
     return (
         <section className="lead">
             <div className="lead__title-img-area">
-            <div className="lead__title-subtitle-area">
+                <div className="lead__title-subtitle-area">
                     <h1 className="lead__title">high jewelry</h1>
 
                     <div className="lead__subtitle">

@@ -1,6 +1,8 @@
 #root {
   width: 100%;
 
+  display: flex;
+  justify-content: center;
 }
 
 .page {
@@ -13,4 +15,5 @@
   position: relative;
 
   margin: 0 auto;
+  border: 1px solid red;
 }
